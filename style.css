@@ -1,0 +1,156 @@
+.ele2{
+  animation: move 1s  infinite linear;
+  animation-delay: .2s;
+
+}
+.four{
+  margin-left: 240px;
+    margin-right: auto;
+}
+.ele4{
+
+  animation: move 1s  infinite linear;
+  animation-delay: .3s;
+
+}
+.ele3{
+  animation: move 1s  infinite linear;
+    animation-delay: .4s;
+}
+.ele5{
+  animation: move 1s  infinite linear;
+    animation-delay: .5s;
+
+}
+.ele6{
+  animation: move 1s  infinite linear;
+    animation-delay: .6s;
+}
+.cir{
+animation: root 5s infinite linear ;
+transform-origin: 305px 231px;
+animation-delay: -.2s
+}
+@keyframes root {
+  from{
+    transform:rotate(0deg);
+}
+to{
+  transform: rotate(359deg);
+}
+}
+
+@keyframes move {
+  20%{
+    transform: translate(0,10px);
+  }
+
+  70%{
+    transform: translate(0,-10px);
+  }
+}
+
+
+.rect4{
+  animation: rep 1s infinite linear;
+  animation-delay: .5s;
+}
+.rect3{
+  animation: rep 1s infinite linear;
+  animation-delay: .4s;
+}
+
+.rect2{
+  animation: rep 1s infinite linear;
+  animation-delay: .3s;
+}
+
+.rect1{
+  animation: rep 1s infinite linear;
+  animation-delay: .2s;
+
+}
+
+
+@keyframes rep {
+  0%{
+    transform: translate(0,0);
+    fill: white;
+  }
+  20%{
+    transform: translate(70px,0);
+    fill:black;
+  }
+}
+.empy1{
+animation: empy 3s infinite ease-in-out;
+transform-origin: 175px 200px;
+animation-delay: .2s;
+}
+.empy2{
+animation: empy 3s infinite ease-in-out;
+transform-origin: 175px 200px;
+animation-delay: .3s;
+}
+.empy3{
+animation: empy 3s infinite ease-in-out;
+transform-origin: 175px 200px;
+animation-delay: .4s;
+}
+.empy4{
+animation: empy 3s infinite ease-in-out;
+transform-origin: 175px 200px;
+animation-delay: .5s;
+}
+@keyframes empy {
+  0%{
+    transform: rotate(0);
+  }
+  30%{
+    transform: rotate(180deg);
+    animation: paused;
+    fill:white;
+  }
+  100%{
+    transform: rotate(359deg);
+    animation: paused;
+    fill:black;
+  }
+}
+.sec1{
+animation: sec 3s infinite ease-in-out;
+transform-origin: 175px 200px;
+animation-delay: .2s;
+}
+.sec2{
+animation: sec 3s infinite ease-in-out;
+transform-origin: 250px 200px;
+animation-delay: .4s;
+}
+.sec3{
+animation: sec 3s infinite ease-in-out;
+transform-origin: 320px 200px;
+animation-delay: .6s;
+}
+.sec4{
+animation: sec 3s infinite ease-in-out;
+transform-origin: 390px 200px;
+animation-delay: .8s;
+}
+.sec5{
+animation: sec 3s infinite ease-in-out;
+transform-origin: 456px 200px;
+animation-delay: 1s;
+}
+@keyframes sec {
+  0%{
+    transform: rotate(0);
+  }
+  30%{
+    transform: rotate(180deg);
+    fill:white;
+    animation-play-state: paused;
+  }}
+.pad{
+  padding-left: 100px
+}
